@@ -32,24 +32,6 @@ Applied logistic regression to classify patient diabetes outcomes using the Pima
 
 **Tools:** Python · Scikit-learn · Pandas · NumPy
 
----
-
-### Lab 5 — PyTorch Neural Networks: Binary Classification
-**File:** `Lab5.py`
-
-Designed and trained multi-layer feedforward neural networks from scratch using PyTorch on a synthetic classification dataset (1,000 samples, 20 features).
-
-**Key techniques:**
-- Custom `SimpleNeuralNetwork` and `ImprovedNetwork` classes with Dropout regularization
-- `BinaryClassifier` with 3 hidden layers (64 → 32 → 2)
-- Early stopping with configurable patience and delta
-- Learning rate scheduling: `StepLR` and `ReduceLROnPlateau`
-- Full evaluation: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
-- Model persistence: saving/loading weights, full model, and training checkpoints
-
-**Tools:** Python · PyTorch · Scikit-learn · NumPy
-
----
 
 
 ## Skills Demonstrated

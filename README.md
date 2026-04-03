@@ -15,6 +15,7 @@ Built a linear regression model to predict nitrogen dioxide (NO2) concentration 
 - Feature exploration: cars per hour, temperature, wind speed, time of day
 - Train/test split and model fitting with Scikit-learn
 - Residual analysis and prediction visualization
+- Compared multiple linear model variants
 
 **Tools:** Python · Scikit-learn · Pandas · Matplotlib · OpenML
 
@@ -26,28 +27,28 @@ Built a linear regression model to predict nitrogen dioxide (NO2) concentration 
 Applied logistic regression to classify patient diabetes outcomes using the Pima Indians Diabetes dataset. Compared model performance before and after feature scaling.
 
 **Key techniques:**
-- StandardScaler preprocessing
-- Logistic Regression with increased max_iter for convergence
-- Evaluation: accuracy, confusion matrix, classification report
+- StandardScaler preprocessing for feature normalization
+- Logistic Regression with increased `max_iter` for convergence
+- Train/test split (80/20)
+- Evaluation: accuracy score, confusion matrix, classification report
 
 **Tools:** Python · Scikit-learn · Pandas · NumPy
 
-
+---
 
 ## Skills Demonstrated
 
 | Area | Skills |
 |------|--------|
-| Supervised Learning | Linear Regression, Logistic Regression, SGD, Naive Bayes |
-| Deep Learning | PyTorch, Custom NN architecture, Dropout, Early Stopping |
-| Data Preprocessing | StandardScaler, TF-IDF, CountVectorizer, missing value handling |
-| Model Evaluation | Accuracy, F1, Precision, Recall, Confusion Matrix |
-| Data Quality | HTML noise detection, data-centric AI improvement |
+| Supervised Learning | Linear Regression, Logistic Regression |
+| Data Preprocessing | StandardScaler, train/test split, feature exploration |
+| Model Evaluation | Accuracy, Confusion Matrix, Classification Report |
+| Libraries | Scikit-learn, Pandas, NumPy, Matplotlib |
 
 ---
 
 ## Course
-**CS3072 / CS4083** — Machine Learning & Foundations of Data Science  
+**CS3072** — Machine Learning  
 Effat University · College of Engineering · Department of Computer Science
 
 ## Author
